@@ -16,6 +16,6 @@ public class EulerProblem1 {
                if((i%3 == 0) || (i%5 == 0))
                    sum += i;
            }
-           System.out.println(sum);
+           System.out.println("Sum of all the multiples of 3 or 5 below 1000 is " + sum + ".");
     }
 }
